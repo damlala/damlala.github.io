@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Damla Öztürk'ün kişisel portfolyo sitesi. Bilgisayar mühendisliği projeleri, yetenekleri ve iletişim bilgileri.">
+    <meta name="keywords" content="Damla Öztürk, bilgisayar mühendisi, yazılım geliştirici, portfolyo, blog, yazılım projeleri">
+    <meta name="author" content="Damla Öztürk">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Damla Öztürk - Portfolyo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f2f5;
+            color: #517eb4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4CAF50, #66BB6A);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+            header h1 {
+                margin: 0;
+                font-size: 3em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+
+        nav {
+            background: #2e7d32;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+            nav a {
+                color: powderblue;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                nav a:hover {
+                    background: mediumpurple;
+                }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #dc4d7e;
+            border-left: 5px solid #66BB6A;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e0f2f1;
+            color:mediumpurple;
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+            .project img {
+                width: 100%;
+                max-width: 600px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #666;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #4CAF50;
+            font-size: 1.5em;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Damla Öztürk</h1>
+        <p>Bilgisayar Mühendisliği Öğrencisi</p>
+    </header>
+
+    <nav>
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#projeler">Projeler</a>
+        <a href="#yetenekler">Yetenekler</a>
+        <a href="#bilgiler">Ek Bilgiler</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <section id="hakkimda">
+        <h2>Hakkımda</h2>
+        <p>Bilgisayar mühendisliği 3. sınıf öğrencisiyim. Yazılım geliştirme, takım çalışması ve yaratıcı projeler konusunda hevesliyim.</p>
+    </section>
+
+    <section id="projeler">
+        <h2>Projeler</h2>
+        <div class="project">
+            <h3>Blog Web Sitesi</h3>
+        </div>
+        <div class="project">
+            <h3>Chess Engine (C)</h3>
+        </div>
+        <div class="project">
+            <h3>University Second-Hand Book Sales and Exchange Platform</h3>
+        </div>
+    </section>
+
+    <section id="yetenekler">
+        <h2>Yetenekler</h2>
+        <div class="skills">
+            <span>Java</span>
+            <span>Python</span>
+            <span>C</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>PHP</span>
+        </div>
+    </section>
+
+    <section id="bilgiler">
+        <h2>Ek Bilgiler</h2>
+        <ul>
+            <li>Kitap okuma yarışmalarında ikincilik ve üçüncülük elde ettim.</li>
+            <li>Satranç turnuvasında birincilik elde ettim.</li>
+            <li>Berlin'de (Did Deutsch-Institut) Almanca dil kursuna gittim. (A2) </li>
+        </ul>
+    </section>
+
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:damla.ztkk@gmail.com">damla.ztkk@gmail.com</a></p>
+        <p><i class="fas fa-phone"></i> +90 555 035 9498</p>
+        <p><i class="fas fa-map-marker-alt"></i> İzmir, Türkiye</p>
+        <div class="social-icons">
+            <a href="https://github.com/damlala" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/damla-öztürk-486625246" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Damla Öztürk. Tüm hakları saklıdır.
+    </footer>
+
+</body>
+</html>
